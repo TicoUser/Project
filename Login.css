@@ -48,7 +48,7 @@ label{
   animation-fill-mode: both;
   }
   
-#paracadastro:target ~ .content #cadastro,
+#criarconta:target ~ .content #cadastro,
 #paralogin:target ~ .content #login{
   z-index: 2;
   -webkit-animation-name: fadeInLeft;

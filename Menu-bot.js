@@ -6,3 +6,8 @@ function selected(value){
       dadosLoja[0].style.display = 'none';
       }
     }
+
+function q(selector){
+   var o = document; 
+     return o.querySelector(selector);
+   }
