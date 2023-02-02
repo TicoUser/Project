@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title> 23° G.E. Santa Cruz </title>
+        <h1> Seções do 23° GE </h1>
+        <style>
+            .hidden {
+            display: none;
+             }
+	
+            .show{
+            display: block; /* Utilize !important caso ocorra conflito */
+            }
+        </style>
+    </head>
+    <body>
+        <select id="droplist">
+             <option value="item-0">Todos os membros</option>
+             <option value="item-1">Alcatéia</option>
+             <option value="item-2">Tropa Escoteira</option>
+             <option value="item-3">Tropa Sênior</option>
+             <option value="item-4">Clã Pioneiro</option>
+        </select>
+        <script src="Secoes.js"></script>
+        
+        <div id="item-1" class="hidden">
+             <p><h3>Alcatéia</h3></p>
+             <div class="show">
+                <li></li>
+                <li></li>
+                <a href="AddMember.html"><button type="button" id="Adicionar">Novo membro</button></a>
+             </div>
+         </div>
+  
+        <div id="item-2" class="hidden">
+          <p>Tropa Escoteira</p>
+             <li></li>
+             <li></li>
+             <a href="AddMember.html"><button type="button" id="Adicionar" class="btn btn-primary">Novo membro</button></a>
+        </div>
+  
+        <div id="item-3" class="hidden">
+          <p>Tropa Sênior</p>
+             <li></li>
+             <li></li>
+             <a href="AddMember.html"><button type="button" id="Adicionar" class="btn btn-primary">Novo membro</button></a>
+         </div>
+            
+        <div id="item-4" class="hidden">    
+            <p>Clã Pioneiro</p>
+             <li></li>
+             <li></li>
+             <a href="AddMember.html"><button type="button" id="Adicionar" class="btn btn-primary">Novo membro</button></a>
+        </div>
+
+    </body>
